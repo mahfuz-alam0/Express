@@ -8,7 +8,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const userData = JSON.parse(fs.readFileSync('user.json'));
+// const userData1 = JSON.parse(fs.readFileSync('/user/user.json'));
+const userData = [
+  {
+      "user":"user@gamil.com",
+      "pass": "123456"
+  }
+];
 
 async function run() {
     try {
