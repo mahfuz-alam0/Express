@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
-    "build": "echo 'Nothing to build for Express.js application'" 
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
